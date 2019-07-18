@@ -22,18 +22,14 @@ Changes in V2.31
 Changes in V2.31 (MQTT version)
 - allows to publish data to MQTT broker (alternative .ino file)
 
-Print the box yourself: https://www.thingiverse.com/thing:3551386
+V2.31 Forked by Frank Ulbrich and added some more sensors:
+// 18.07.2019
+//  WeMOS D1 mini PRO 160MHz / 16MB
+//  BMP 280 (Temperatur/Barometer/Feuchte)auf IIC 0x76
+//  BME 280 (Temperatur/Barometer) auf IIC 0x76
+//  DHT22   (Temperatur/Feuchte) auf D7
+//  CCS811  (CO Gas) auf IIC 0x5A - bridge  WAK-GND - I2C port
+//  VELM6070 UV Light Sensor IIC - risk level http://www.vishay.com/docs/84310/designingveml6070.pdf
 
-[![Solar Wifi Weather Station](https://github.com/3KUdelta/Solar_WiFi_Weather_Station/blob/master/IMG_2951.jpg)](https://github.com/3KUdelta/Solar_WiFi_Weather_Station)
-
-Blynk Example (here: German version):
-[![Solar Wifi Weather Station](https://github.com/3KUdelta/Solar_WiFi_Weather_Station/blob/master/IMG_2997.PNG)](https://github.com/3KUdelta/Solar_WiFi_Weather_Station)
-
-Blynk project settings. Get Blynk in AppStore or GooglePlay and scan QR Code. You might need to purchase Blynk energy to load full project.
-[![Solar Wifi Weather Station](https://github.com/3KUdelta/Solar_WiFi_Weather_Station/blob/master/IMG_3036.JPG)](https://github.com/3KUdelta/Solar_WiFi_Weather_Station)
-
-Node-Red example showing MQTT messages on dashboard.
-[![Solar Wifi Weather Station](https://github.com/3KUdelta/Solar_WiFi_Weather_Station/blob/master/Node-Red-Dashboard.png)](https://github.com/3KUdelta/Solar_WiFi_Weather_Station)
-
-ThinkSpeak Example (ThingView iOS):
-[![Solar Wifi Weather Station](https://github.com/3KUdelta/Solar_WiFi_Weather_Station/blob/master/IMG_2617B43DD8C8-1.jpeg)](https://github.com/3KUdelta/Solar_WiFi_Weather_Station)
+//  Data exported to INFLUX DB
+//  Added User/Password to export ti MQTT
