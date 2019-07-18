@@ -22,7 +22,7 @@ Changes in V2.31
 Changes in V2.31 (MQTT version)
 - allows to publish data to MQTT broker (alternative .ino file)
 
-V2.31 Forked by Frank Ulbrich and added some more sensors:
+3KUdelte V2.31 MQTT - Forked by Frank Ulbrich and added some more sensors:
 18.07.2019
 - WeMOS D1 mini PRO 160MHz / 16MB
 - BMP 280 (Temperatur/Barometer/Feuchte)auf IIC 0x76
@@ -33,3 +33,4 @@ V2.31 Forked by Frank Ulbrich and added some more sensors:
 
 - Data exported to INFLUX DB
 - Added User/Password to export ti MQTT
+- housing https://github.com/FrankUlbrich/Solar_WiFi_Weather_Station/blob/master/housing.JPG
