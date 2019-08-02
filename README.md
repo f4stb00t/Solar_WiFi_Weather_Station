@@ -32,5 +32,5 @@ Changes in V2.31 (MQTT version)
 - VELM6070 UV Light Sensor IIC - risk level http://www.vishay.com/docs/84310/designingveml6070.pdf
 
 - Data exported to INFLUX DB
-- Added User/Password to export ti MQTT
+- Added User/Password to export to MQTT
 - housing https://github.com/FrankUlbrich/Solar_WiFi_Weather_Station/blob/master/housing.JPG
